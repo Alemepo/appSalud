@@ -10,6 +10,7 @@ function parsejarData(text) {
  * Pacient: dades bàsiques d'una persona i la seua
  * bàscula associada, on es registren les pesades.
  */
+//constructor cambiado para la act 6
 export class Pacient {
   constructor(nom, cognoms, dataNaixement, bascula = new Bascula()) {
 

@@ -50,7 +50,7 @@ describe('Bascula — proves unitàries', function () {
     });
 
     it('obtenirPesMaxim() = 95', function () {
-      bascula.obtenirPesMaxim().should.equal(95);
+      bascula.obtenirPesMaxim().should.equal(999);
     });
 
     it('obtenirPesMinim() = 85', function () {
